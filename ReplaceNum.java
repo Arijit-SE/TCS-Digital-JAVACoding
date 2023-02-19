@@ -19,7 +19,7 @@ public class ReplaceNum {
         }
         else
         {
-            System.out.println("Wrong input");
+            System.out.println("Given integer is out of range");
         }
     }
 }
