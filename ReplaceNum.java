@@ -23,3 +23,29 @@ public class ReplaceNum {
         }
     }
 }
+
+/* ANOTHER SOLUTION
+ * ---------------------------
+import java.util.*;
+public class test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String num = sc.nextLine();
+        int val = 0;
+        if(Integer.parseInt(num)>=0 && Integer.parseInt(num)<=1000000)
+        {
+            for (int i = 0; i < num.length(); i++) 
+            {
+                int k = 9-Integer.parseInt(String.valueOf(num.charAt(i)));
+                val = val*10 + k;
+            }
+            System.out.println(val);
+        }
+        else
+        {
+            
+        }
+    }
+}
+
+ */
