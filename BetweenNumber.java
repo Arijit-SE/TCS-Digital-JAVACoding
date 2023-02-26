@@ -1,3 +1,18 @@
+/* Count of Nonrepeat-digited number (10, 12, 13,.............) between a range
+ * Note:
+ * Repeat-Digit :- 11, 22, 33, .............
+ * You should ignore the digit and count the other numbers
+ * 
+ * Input : 
+ * ---------------------
+    10
+    25
+
+    Output :
+    -------------------
+    14
+*/
+
 import java.util.*;
 public class BetweenNumber {
     public static void main(String[] args) {
