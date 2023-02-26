@@ -1,3 +1,11 @@
+/* Substract any number between 0 to 1000000 each digit by 9
+ * Input : 25843
+ * Output : 74156
+ * 
+ * Input : 58462314
+ * Output : Given integer is out of range
+ */
+
 import java.util.*;
 public class ReplaceNum {
     public static void main(String[] args) {
