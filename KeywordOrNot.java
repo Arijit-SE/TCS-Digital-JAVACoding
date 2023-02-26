@@ -1,4 +1,9 @@
-package Java;
+/* Find a taken String is a keyword or not
+ * Note : 
+ * "break", "case", "continue", "default", "defer", "else", "for", "func", "goto", "if", "map", "range","return", 
+   "struct", "type", "var" --- these are the keywords
+ */
+
 import java.util.*;
 public class KeywordOrNot {
     public static void main(String[] args) {
