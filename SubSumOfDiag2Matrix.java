@@ -1,3 +1,14 @@
+/* Sum of substraction of two diagonals of a matrix
+
+Enter number of row/col :3
+1 2 3
+4 5 6
+9 8 9
+The substraction of the sums of each diagonals : 2
+
+ * |(1+5+9)-(3+5+9)| = 2
+ */
+
 import java.util.*;
 public class SubSumOfDiag2Matrix
 {
