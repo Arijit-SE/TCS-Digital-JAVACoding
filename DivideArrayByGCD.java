@@ -1,12 +1,21 @@
 /* Take input an array, then divide the whole array by there gcd.
- * Input
+ * Input-1
  * ----------
  * 5
  * 36 12 9 48 15
  * 
- * Output
+ * Output-1
  * ----------
  * 12 4 3 16 5
+ * 
+ * Input-2
+ * ----------
+ * 5
+ * 31 51 47 63 24
+ * 
+ * Output-2
+ * ----------
+ * 31 51 47 63 24
  */
 
 import java.util.*;
